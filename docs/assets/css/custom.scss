@@ -1,0 +1,19 @@
+// Accent color tuning
+$link-color: #2e7dd7;
+$btn-primary-color: #2e7dd7;
+
+.btn {
+  margin-right: 8px;
+}
+
+.screenshot-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.screenshot-grid img {
+  border-radius: 6px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+}
+
