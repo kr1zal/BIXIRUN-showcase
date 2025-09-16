@@ -1,18 +1,20 @@
----
+layout: home
 title: BIXIRUN — витрина
----
 
 ## BIXIRUN
 
-Мобильное фитнес‑приложение на React Native/Expo: интервальные таймеры, тренировки, блог, магазин, Supabase.
+Мобильное фитнес‑приложение на React Native/Expo: интервальные таймеры,
+тренировки, блог, магазин, Supabase.
 
-[View on GitHub](https://github.com/kr1zal/BIXIRUN-showcase){: .btn .btn-primary }
-[Live Demo](https://kr1zal.github.io/BIXIRUN-showcase/){: .btn }
-[Request code access](https://github.com/kr1zal/BIXIRUN-showcase/issues/new?template=contact.yml){: .btn }
+[View on GitHub](https://github.com/kr1zal/BIXIRUN-showcase){: .btn .btn-primary
+} [Live Demo](https://kr1zal.github.io/BIXIRUN-showcase/){: .btn }
+[Request code access](https://github.com/kr1zal/BIXIRUN-showcase/issues/new?template=contact.yml){:
+.btn }
 
 > Код проекта приватный; витрина — публичная. Доступ к коду по запросу.
 
 ## Быстрые ссылки
+
 - README (этот репозиторий)
 - Скриншоты (будут добавлены в `assets/images/`)
 - Releases/демо (по мере готовности)
@@ -31,8 +33,8 @@ title: BIXIRUN — витрина
   <div><img src="assets/images/article.jpg" alt="Статья в блоге" /><br/><sub>Статья в блоге</sub></div>
 </div>
 
-
 ## Навигация
+
 - [README](../README.md)
 - [Screens (ниже)](#скриншоты)
 - [Лицензия](../LICENSE)
