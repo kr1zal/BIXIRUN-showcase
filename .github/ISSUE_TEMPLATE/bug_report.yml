@@ -1,0 +1,25 @@
+name: Bug report (showcase)
+description: Сообщить баг на витрине/Pages
+title: "bug: <кратко>"
+labels: ["bug"]
+body:
+  - type: textarea
+    id: desc
+    attributes:
+      label: Описание
+      placeholder: Что произошло и чего ожидали
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: URL страницы
+      placeholder: https://kr1zal.github.io/BIXIRUN-showcase/
+  - type: textarea
+    id: steps
+    attributes:
+      label: Шаги воспроизведения
+  - type: textarea
+    id: misc
+    attributes:
+      label: Дополнительно (скрин/видео)

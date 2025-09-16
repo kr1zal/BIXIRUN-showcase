@@ -1,0 +1,11 @@
+name: Docs request
+description: Запрос на улучшение документации
+title: "docs: <тема>"
+labels: ["documentation"]
+body:
+  - type: textarea
+    id: scope
+    attributes:
+      label: Что нужно улучшить
+    validations:
+      required: true
