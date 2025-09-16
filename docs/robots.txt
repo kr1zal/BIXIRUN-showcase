@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://kr1zal.github.io/BIXIRUN-showcase/sitemap.xml
