@@ -1,5 +1,7 @@
 # BIXIRUN — витрина проекта
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE) [![Expo 53](https://img.shields.io/badge/Expo-53-blue)](https://docs.expo.dev/versions/latest/) [![React Native 0.79](https://img.shields.io/badge/React%20Native-0.79-blue?logo=react)](https://reactnative.dev/) [![TypeScript 5.8](https://img.shields.io/badge/TypeScript-5.8-blue?logo=typescript)](https://www.typescriptlang.org/) [![Platforms iOS|Android|Web](https://img.shields.io/badge/Platforms-iOS%20%7C%20Android%20%7C%20Web-black)](#поддерживаемые-платформы) [![GitHub Pages](https://img.shields.io/badge/Pages-live-brightgreen)](https://kr1zal.github.io/BIXIRUN-showcase/)
+
 > Мобильное фитнес‑приложение на React Native/Expo: интервальные таймеры, тренировки, блог, магазин с корзиной и чекаутом, Supabase‑бэкенд.
 
 [Презентационный репозиторий](https://github.com/kr1zal/BIXIRUN-showcase)
@@ -82,4 +84,48 @@ docs/               # техническая документация
 
 ## Скриншоты
 
-<table><tr><td align="center" width="50%"><img src="assets/images/main_6_5.jpg" alt="Главный экран" width="100%"/><br/><sub>Главный экран</sub></td><td align="center" width="50%"><img src="assets/images/02-catalog-6_5_v3.jpg" alt="Каталог товаров" width="100%"/><br/><sub>Каталог товаров</sub></td></tr><tr><td align="center" width="50%"><img src="assets/images/03-product-6_5_v3.jpg" alt="Карточка товара" width="100%"/><br/><sub>Карточка товара</sub></td><td align="center" width="50%"><img src="assets/images/04-cart-6_5_v3.jpg" alt="Корзина и оформление" width="100%"/><br/><sub>Корзина и оформление</sub></td></tr><tr><td align="center" width="50%"><img src="assets/images/timerFree.jpg" alt="Таймер — пресеты" width="100%"/><br/><sub>Таймер — пресеты</sub></td><td align="center" width="50%"><img src="assets/images/timer_video.jpg" alt="Видео‑режим таймера" width="100%"/><br/><sub>Видео‑режим таймера</sub></td></tr><tr><td align="center" width="50%"><img src="assets/images/articl.jpg" alt="Статья в блоге" width="100%"/><br/><sub>Статья в блоге</sub></td><td></td></tr></table>
+<table><tr><td align="center" width="50%"><img src="assets/images/main_6_5.jpg" alt="Главный экран" width="100%"/><br/><sub>Главный экран</sub></td><td align="center" width="50%"><img src="assets/images/02-catalog-6_5_v3.jpg" alt="Каталог товаров" width="100%"/><br/><sub>Каталог товаров</sub></td></tr><tr><td align="center" width="50%"><img src="assets/images/03-product-6_5_v3.jpg" alt="Карточка товара" width="100%"/><br/><sub>Карточка товара</sub></td><td align="center" width="50%"><img src="assets/images/04-cart-6_5_v3.jpg" alt="Корзина и оформление" width="100%"/><br/><sub>Корзина и оформление</sub></td></tr><tr><td align="center" width="50%"><img src="assets/images/timerFree.jpg" alt="Таймер — пресеты" width="100%"/><br/><sub>Таймер — пресеты</sub></td><td align="center" width="50%"><img src="assets/images/timer_video.jpg" alt="Видео‑режим таймера" width="100%"/><br/><sub>Видео‑режим таймера</sub></td></tr><tr><td align="center" width="50%"><img src="assets/images/article.jpg" alt="Статья в блоге" width="100%"/><br/><sub>Статья в блоге</sub></td><td></td></tr></table>
+
+## Архитектура (high‑level)
+
+- Клиент: Expo (React Native), `expo-router`, Redux Toolkit, TS.
+
+- Бэкенд: Supabase (Auth, Postgres, Edge Functions, Storage).
+
+- Синхронизация: пресеты/статистика через Supabase; офлайн — частичный (кэш/очередь задач в разработке).
+
+- Мультимедиа: `expo-av` для звука, `expo-haptics` для тактильной отдачи, VisionCamera для видео.
+
+## Состояние модулей
+
+| Модуль | Статус | Примечание |
+|---|---|---|
+| Таймер/пресеты | stable | Автопереходы, звуки/вибро |
+| Синхронизация пресетов | beta | Supabase, конфликт‑резолв позднее |
+| Статистика | beta | Агрегаты по тренировкам |
+| Авторизация | stable | Email/password, recovery |
+| Блог | stable | Рендер markdown |
+| Каталог/корзина/чекаут | beta | UI стабильный, платёжный поток под ревью |
+| Web | beta | Expo Web, часть экранов упрощена |
+
+## Поддерживаемые платформы
+
+- iOS 15+
+- Android 8+
+- Web (Expo Web)
+
+Node 18+, Expo SDK 53.
+
+## Ограничения/известные моменты
+
+- Запрещён `expo prebuild` (см. docs).
+- Offline частичный; операции в очереди — в работе.
+- Минимальная документация по .env публично: ключи не раскрываются.
+
+## Roadmap
+
+- Улучшение офлайна и конфликт‑резолва пресетов
+- Аналитика/события
+- A11y и локализация
+- E2E/Smoke на критические флоу
+- Производительность списков/изображений

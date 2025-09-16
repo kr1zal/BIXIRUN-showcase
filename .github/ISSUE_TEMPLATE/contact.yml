@@ -1,0 +1,15 @@
+name: Request code access
+description: Запросить доступ к приватному репозиторию кода
+title: "Access request: <ваше имя/компания>"
+labels: ["access"]
+body:
+  - type: markdown
+    attributes:
+      value: "Опишите кратко цель доступа и ваш GitHub username."
+  - type: input
+    id: contact
+    attributes:
+      label: Контактный email
+      placeholder: you@example.com
+    validations:
+      required: true
