@@ -78,3 +78,12 @@ docs/               # техническая документация
 ## FAQ
 # Скриншоты
 
+
+
+## Скриншоты
+- ![](assets/images/main_6_5.jpg)
+- ![](assets/images/02-catalog-6_5_v3.jpg)
+- ![](assets/images/03-product-6_5_v3.jpg)
+- ![](assets/images/04-cart-6_5_v3.jpg)
+- ![](assets/images/timerFree.jpg)
+- ![](assets/images/timer_video.png)
