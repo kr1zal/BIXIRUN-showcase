@@ -2,6 +2,8 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE) [![Expo 53](https://img.shields.io/badge/Expo-53-blue)](https://docs.expo.dev/versions/latest/) [![React Native 0.79](https://img.shields.io/badge/React%20Native-0.79-blue?logo=react)](https://reactnative.dev/) [![TypeScript 5.8](https://img.shields.io/badge/TypeScript-5.8-blue?logo=typescript)](https://www.typescriptlang.org/) [![Platforms iOS|Android|Web](https://img.shields.io/badge/Platforms-iOS%20%7C%20Android%20%7C%20Web-black)](#поддерживаемые-платформы) [![GitHub Pages](https://img.shields.io/badge/Pages-live-brightgreen)](https://kr1zal.github.io/BIXIRUN-showcase/)
 
+[![GitHub stars](https://img.shields.io/github/stars/kr1zal/BIXIRUN-showcase?style=social)](https://github.com/kr1zal/BIXIRUN-showcase/stargazers) [![GitHub forks](https://img.shields.io/github/forks/kr1zal/BIXIRUN-showcase?style=social)](https://github.com/kr1zal/BIXIRUN-showcase/network/members) [![Pages Deploy](https://img.shields.io/github/actions/workflow/status/kr1zal/BIXIRUN-showcase/pages.yml?label=pages)](https://github.com/kr1zal/BIXIRUN-showcase/actions)
+
 > Мобильное фитнес‑приложение на React Native/Expo: интервальные таймеры, тренировки, блог, магазин с корзиной и чекаутом, Supabase‑бэкенд.
 
 [Презентационный репозиторий](https://github.com/kr1zal/BIXIRUN-showcase)
