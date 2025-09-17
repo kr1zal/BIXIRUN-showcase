@@ -127,7 +127,7 @@ docs/               # техническая документация
 ## Demo/Preview
 
 - Android APK: (не указано)
-- iOS TestFlight: (не указано)
+- iOS TestFlight: https://testflight.apple.com/join/fDPKhzVG
 - Expo Updates (preview): (не указано)
 - Скринкаст demo.mp4: (не указано)
 
