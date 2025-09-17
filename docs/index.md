@@ -5,11 +5,13 @@ title: BIXIRUN — витрина
 
 <style>
 .page-content{max-width:980px;margin:0 auto;padding:24px 16px}
-.btn{display:inline-block;padding:8px 14px;border-radius:6px;background:#2e7dd7;color:#fff !important;text-decoration:none;margin-right:8px}
+.btns{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px}
+.btn{display:inline-block;padding:8px 14px;border-radius:6px;border:1px solid #2e7dd7;color:#2e7dd7 !important;text-decoration:none;background:#fff}
+.btn:hover{background:#2e7dd711}
 .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
 @media (max-width:640px){.grid{grid-template-columns:1fr}}
 .grid img{width:100%;border-radius:6px}
-#footer,.site-footer,.site-footer-credits{display:none !important}
+#footer,.site-footer,.site-footer-credits,footer,.footer{display:none !important}
 </style>
 
 ## BIXIRUN
@@ -17,19 +19,21 @@ title: BIXIRUN — витрина
 Мобильное фитнес‑приложение на React Native/Expo: интервальные таймеры,
 тренировки, блог, магазин, Supabase.
 
-[View on GitHub](https://github.com/kr1zal/BIXIRUN-showcase){: .btn }
-[Live Demo](https://kr1zal.github.io/BIXIRUN-showcase/){: .btn }
-[TestFlight](https://testflight.apple.com/join/fDPKhzVG){: .btn }
-[Request code access](https://github.com/kr1zal/BIXIRUN-showcase/issues/new?template=contact.yml){:
-.btn }
+<div class="btns">
+  <a class="btn" href="https://github.com/kr1zal/BIXIRUN-showcase">View on GitHub</a>
+  <a class="btn" href="https://kr1zal.github.io/BIXIRUN-showcase/">Live Demo</a>
+  <a class="btn" href="https://testflight.apple.com/join/fDPKhzVG">TestFlight</a>
+  <a class="btn" href="https://github.com/kr1zal/BIXIRUN-showcase/issues/new?template=contact.yml">Request code access</a>
+  <a class="btn" href="https://github.com/kr1zal/BIXIRUN-showcase/releases">Releases</a>
+</div>
 
 > Код проекта приватный; витрина — публичная. Доступ к коду по запросу.
 
 ## Быстрые ссылки
 
-- README: https://github.com/kr1zal/BIXIRUN-showcase/blob/main/README.md
-- Releases/демо: https://github.com/kr1zal/BIXIRUN-showcase/releases
-- Лицензия: https://github.com/kr1zal/BIXIRUN-showcase/blob/main/LICENSE
+- [README](https://github.com/kr1zal/BIXIRUN-showcase/blob/main/README.md)
+- [Releases/демо](https://github.com/kr1zal/BIXIRUN-showcase/releases)
+- [Лицензия](https://github.com/kr1zal/BIXIRUN-showcase/blob/main/LICENSE)
 
 ## Стек
 
