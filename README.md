@@ -26,7 +26,7 @@
 - [Примеры использования](#примеры-использования)
 - [FAQ](#faq)
 - [Автор](#автор)
-- [Лицензия](#-license)
+- [Лицензия](#license)
 
 ## О проекте
 
@@ -135,6 +135,14 @@ docs/               # техническая документация
 
 - Support: https://bixirun.ru/support/
 - Privacy: https://bixirun.ru/privacy/
+
+## Автор
+
+- GitHub: https://github.com/kr1zal
+
+## License
+
+MIT — см. файл [LICENSE](./LICENSE).
 
 Рекомендации:
 
