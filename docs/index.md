@@ -27,7 +27,6 @@ title: BIXIRUN — витрина
   <a class="btn" href="https://github.com/kr1zal/BIXIRUN-showcase/releases">Releases</a>
   <a class="btn" href="https://bixirun.ru/support/">Support</a>
   <a class="btn" href="https://bixirun.ru/privacy/">Privacy</a>
-  <a class="btn" href="/BIXIRUN-showcase/terms">Terms</a>
 </div>
 
 > Код проекта приватный; витрина — публичная. Доступ к коду по запросу.
@@ -38,7 +37,6 @@ title: BIXIRUN — витрина
 - [Releases/демо](https://github.com/kr1zal/BIXIRUN-showcase/releases)
 - [Support](https://bixirun.ru/support/)
 - [Privacy](https://bixirun.ru/privacy/)
-- [Terms](/BIXIRUN-showcase/terms)
 
 ## Стек
 
