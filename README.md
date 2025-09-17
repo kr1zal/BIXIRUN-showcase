@@ -131,6 +131,11 @@ docs/               # техническая документация
 - Expo Updates (preview): (не указано)
 - Скринкаст demo.mp4: (не указано)
 
+## Links
+
+- Support: https://bixirun.ru/support/
+- Privacy: https://bixirun.ru/privacy/
+
 Рекомендации:
 
 - Загружайте APK/скринкаст как assets в GitHub Releases и вставляйте прямые

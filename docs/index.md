@@ -25,6 +25,9 @@ title: BIXIRUN — витрина
   <a class="btn" href="https://testflight.apple.com/join/fDPKhzVG">TestFlight</a>
   <a class="btn" href="https://github.com/kr1zal/BIXIRUN-showcase/issues/new?template=contact.yml">Request code access</a>
   <a class="btn" href="https://github.com/kr1zal/BIXIRUN-showcase/releases">Releases</a>
+  <a class="btn" href="https://bixirun.ru/support/">Support</a>
+  <a class="btn" href="https://bixirun.ru/privacy/">Privacy</a>
+  <a class="btn" href="/BIXIRUN-showcase/terms">Terms</a>
 </div>
 
 > Код проекта приватный; витрина — публичная. Доступ к коду по запросу.
@@ -33,7 +36,9 @@ title: BIXIRUN — витрина
 
 - [README](https://github.com/kr1zal/BIXIRUN-showcase/blob/main/README.md)
 - [Releases/демо](https://github.com/kr1zal/BIXIRUN-showcase/releases)
-- [Лицензия](https://github.com/kr1zal/BIXIRUN-showcase/blob/main/LICENSE)
+- [Support](https://bixirun.ru/support/)
+- [Privacy](https://bixirun.ru/privacy/)
+- [Terms](/BIXIRUN-showcase/terms)
 
 ## Стек
 
