@@ -26,3 +26,6 @@
 
 .grid img { width: 100%; border-radius: 6px; }
 
+/* Hide theme credit in footer */
+.site-footer-credits { display: none !important; }
+
